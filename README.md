@@ -28,10 +28,6 @@ This repository contains the source code for a portfolio website built using Nex
 - An about section to introduce yourself.
 - Easily customizable with Sass for styling.
 
-## Screenshots
-
-![Screenshot 1](/screenshot-desktop.png)
-
 ## Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
