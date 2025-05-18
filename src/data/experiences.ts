@@ -2,11 +2,11 @@ import { IExperienceItem } from "@/types";
 
 const experiences: IExperienceItem[] = [
   {
-    designation: "Software Development Engineer",
-    company: "StarApps Studio",
-    startDate: "Jul 2024",
+    designation: "Senior Software Engineer",
+    company: "BeaconTrax Inc",
+    startDate: "Mar 2020",
     isCurrentJob: true,
-    location: "Pune, India",
+    location: "Toronto, Canada",
     description: [
       "Currently working on developing innovative software solutions.",
       "Contributing to large-scale projects with a focus on performance optimization.",
@@ -16,11 +16,11 @@ const experiences: IExperienceItem[] = [
   },
   {
     designation: "Full Stack Developer",
-    company: "Merito",
-    startDate: "Feb 2023",
-    endDate: "Jul 2024",
+    company: "Thriver",
+    startDate: "Feb 2018",
+    endDate: "Mar 2020",
     isCurrentJob: false,
-    location: "Pune, India",
+    location: "Toronto, Canada",
     description: [
       "Developed over 5 web applications with seamless backend API integration.",
       "Streamlined workflows by eliminating redundant data, boosting efficiency.",
@@ -30,10 +30,10 @@ const experiences: IExperienceItem[] = [
     ],
   },
   {
-    designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
-    startDate: "May 2021",
-    endDate: "Jul 2022",
+    designation: "Software Developer",
+    company: "Lunchclub",
+    startDate: "Aug 2015",
+    endDate: "Jan 2018",
     isCurrentJob: false,
     location: "Remote",
     description: [
@@ -44,10 +44,10 @@ const experiences: IExperienceItem[] = [
     ],
   },
   {
-    designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
-    startDate: "Jul 2021",
-    endDate: "Nov 2021",
+    designation: "Software Developer Intern",
+    company: "Electroline",
+    startDate: "Mar 2013",
+    endDate: "Jul 2015",
     isCurrentJob: false,
     location: "Remote",
     description: [
