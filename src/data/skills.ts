@@ -15,9 +15,24 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "Dart",
+        title: "TypeScript",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/typescript.svg",
+      },
+      {
+        title: "Java",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/java.svg",
+      },
+      {
+        title: "C#",
+        level: SkillLevel.Expert,
+        icon: "/skills/csharp.svg",
+      },
+      {
+        title: "Python",
+        level: SkillLevel.Expert,
+        icon: "/skills/python.svg",
       },
     ],
   },
@@ -33,6 +48,11 @@ const skills: ISkillListItem[] = [
         title: "React.js",
         level: SkillLevel.Expert,
         icon: "/skills/react.svg",
+      },
+      {
+        title: "Angular",
+        level: SkillLevel.Expert,
+        icon: "/skills/angular.svg",
       },
       {
         title: "HTML",
@@ -74,11 +94,16 @@ const skills: ISkillListItem[] = [
         level: SkillLevel.Intermediate,
         icon: "/skills/socket-io.png",
       },
-      // {
-      //   title: "Nest.js",
-      //   level: SkillLevel.Beginner,
-      //   icon: "/skills/nestjs.svg",
-      // },
+      {
+        title: "Nest.js",
+        level: SkillLevel.Beginner,
+        icon: "/skills/nestjs.svg",
+      },
+      {
+        title: "Django",
+        level: SkillLevel.Beginner,
+        icon: "/skills/django.svg",
+      },
     ],
   },
   {
