@@ -4,12 +4,12 @@ class Strings {
   static telegramUsername = "nixrajput";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
+  static githubLink = "https://www.github.com/digi-kraken206";
   static githubUsername = "nixrajput";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink = "linkedin.com/in/harry-w-9983711bb/";
+  static linkedInUsername = "Harry W";
 
   static instagram = "Instagram";
   static instagramLink = "https://www.instagram.com/nixrajput";
@@ -20,8 +20,8 @@ class Strings {
   static twitterUsername = "nixrajput07";
 
   static email = "Email";
-  static primaryEmailLink = "mailto:nkr.nikhil.nkr@gmail.com";
-  static primaryEmail = "nkr.nikhil.nkr@gmail.com";
+  static primaryEmailLink = "mailto:harry.work@gmail.com";
+  static primaryEmail = "harry.work@gmail.com";
 
   static buyMeACoffee = "BuyMeACoffee";
   static buyMeACoffeeLink = "https://buymeacoffee.com/nixrajput";
@@ -31,8 +31,8 @@ class Strings {
   static koFiLink = "https://ko-fi.com/nixrajput";
   static koFiUsername = "nixrajput";
 
-  static fullName = "Nikhil Rajput";
-  static shortName = "nixrajput";
+  static fullName = "Harry Wang";
+  static shortName = "harry";
 }
 
 export default Strings;
