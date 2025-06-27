@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Harry Wang",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Harry Wang is a proficient Software Engineer and Full Stack Developer from Canada, skilled in front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
@@ -40,12 +40,6 @@ export const metadata: Metadata = {
     },
   },
   icons: [
-    {
-      url: "/favicon-16x16.ico",
-      rel: "icon",
-      sizes: "16x16",
-      type: "image/x-icon",
-    },
     {
       url: "/favicon-32x32.ico",
       rel: "icon",
@@ -66,16 +60,9 @@ export const metadata: Metadata = {
     },
   ],
   keywords: [
-    "nikhil rajput",
-    "nikhil",
-    "nixrajput",
-    "nikhil-rajput",
-    "rajput nikhil",
-    "founder of nixlab",
-    "nixlab founder",
+    "Harry Wang",
+    "harry",
     "full stack developer",
-    "indian developer",
-    "nixrajput github",
   ],
 };
 
@@ -91,9 +78,9 @@ const FloatingNavbar = dynamic(
 );
 const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
 
-const isDebug = process.env.NODE_ENV === "development";
+const isDebug = false;
 
-const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
+const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {  
   return (
     <html lang="en" className={poppins.className}>
       {isDebug ? null : <GoogleAnalytics />}

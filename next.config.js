@@ -12,6 +12,7 @@ const nextConfig = {
       { protocol: "https", hostname: "**.amazonaws.com" },
     ],
   },
+  output: 'export'
 };
 
 module.exports = withSentryConfig(nextConfig, {

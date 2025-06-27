@@ -15,9 +15,9 @@ const skills: ISkillListItem[] = [
         icon: "/skills/typescript.svg",
       },
       {
-        title: "TypeScript",
+        title: "Ruby",
         level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
+        icon: "/skills/ruby.svg",
       },
       {
         title: "Java",
@@ -48,6 +48,11 @@ const skills: ISkillListItem[] = [
         title: "React.js",
         level: SkillLevel.Expert,
         icon: "/skills/react.svg",
+      },
+      {
+        title: "Vue.js",
+        level: SkillLevel.Expert,
+        icon: "/skills/vue.svg",
       },
       {
         title: "Angular",
@@ -91,24 +96,39 @@ const skills: ISkillListItem[] = [
       },
       {
         title: "Socket.io",
-        level: SkillLevel.Intermediate,
+        level: SkillLevel.Expert,
         icon: "/skills/socket-io.png",
       },
       {
         title: "Nest.js",
-        level: SkillLevel.Beginner,
+        level: SkillLevel.Expert,
         icon: "/skills/nestjs.svg",
       },
       {
         title: "Django",
-        level: SkillLevel.Beginner,
+        level: SkillLevel.Expert,
         icon: "/skills/django.svg",
+      },
+      {
+        title: "Spring Framework",
+        level: SkillLevel.Expert,
+        icon: "/skills/spring.png",
+      },
+      {
+        title: "ASP.NET",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/asp.net.png",
       },
     ],
   },
   {
     title: "Mobile App Development",
     items: [
+      {
+        title: "React Native",
+        level: SkillLevel.Expert,
+        icon: "/skills/reactnative.svg",
+      },
       {
         title: "Flutter",
         level: SkillLevel.Expert,
@@ -153,6 +173,11 @@ const skills: ISkillListItem[] = [
         title: "AWS",
         level: SkillLevel.Intermediate,
         icon: "/skills/aws.svg",
+      },
+      {
+        title: "Azure",
+        level: SkillLevel.Intermediate,
+        icon: "/skills/azure.svg",
       },
       {
         title: "Git",
@@ -201,6 +226,28 @@ const skills: ISkillListItem[] = [
       },
     ],
   },
+  {
+    title: "Generative AI",
+    items: [
+      {
+        title: "OpenAI",
+        icon: "/skills/chatgpt.svg"
+      },
+      {
+        title: "NLP",
+        icon: "/skills/nlp.svg"
+      },
+      {
+        title: "LangChain",
+        icon: "/skills/chain-image.png"
+      },
+      {
+        title: "RAG System",
+        icon: "/skills/setting.svg"
+      }
+      
+    ]
+  }
 ];
 
 export default skills;
