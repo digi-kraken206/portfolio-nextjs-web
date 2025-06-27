@@ -6,18 +6,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    remotePatterns: [
-      { protocol: "https", hostname: "**.githubusercontent.com" },
-      { protocol: "https", hostname: "**.github.com" },
-      { protocol: "https", hostname: "**.amazonaws.com" },
-    ],
+    domains: ['portfolio-55a42.web.app', 'res.cloudinary.com'],
+    unoptimized: true
   },
   output: 'export'
 };
 
-module.exports = withSentryConfig(nextConfig, {
-  org: "nixlab-technologies",
-  project: "portfolio-nextjs",
-  authToken: process.env.SENTRY_AUTH_TOKEN,
-  silent: false,
-});
+module.exports = nextConfig;

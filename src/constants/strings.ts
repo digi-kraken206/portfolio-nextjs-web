@@ -9,7 +9,7 @@ class Strings {
 
   static email = "Email";
   static primaryEmailLink = "mailto:harry.work@gmail.com";
-  static primaryEmail = "harry.work@gmail.com";
+  static primaryEmail = "harry.work206@gmail.com";
 
   static fullName = "Harry Wang";
   static shortName = "harry";
