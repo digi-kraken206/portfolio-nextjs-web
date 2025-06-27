@@ -6,7 +6,7 @@ const projects: IProjectItem[] = [
     title: "AllMart (E-Commerce)",
     description: "AllMart is an eCommerce and delivery platform in Antigua & Barbuda that connects users with local merchants for food, groceries," + 
     "and retail shopping, offering real-time tracking, fast delivery, and flexible payment options.",
-    icon: "/images/allmart.png",
+    icon: "https://res.cloudinary.com/decn4jnpk/image/upload/v1751035273/allmart_mo0gqs.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     url: "https://www.allmartplace.com/en/",
@@ -18,7 +18,7 @@ const projects: IProjectItem[] = [
     description:
       "Gavani is an online platform for buying and selling clothing, designed to serve both sellers and buyers. " + 
       "It offers a suite of automation tools and settings to help users efficiently connect with potential buyers or sellers.",
-    icon: "/images/gavani.png",
+    icon: "https://res.cloudinary.com/decn4jnpk/image/upload/v1751035307/gavani_ms2fzh.png",
     repoType: RepoType.Private,
     projectType: ProjectType.Personal,
     githubUrl: "",
@@ -30,7 +30,7 @@ const projects: IProjectItem[] = [
     title: "GemPad (NFT Marketplace)",
     description: "GemPad is a decentralized, multi-chain launchpad that allows crypto projects to launch tokens without coding." + 
     "It offers various sale types, investor protection features, and rewards via the $GEMS token.",
-    icon: "/images/gempad.png",
+    icon: "https://res.cloudinary.com/decn4jnpk/image/upload/v1751035312/gempad_vjb1ub.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     url: "https://gempad.app/presale/all",
@@ -42,7 +42,7 @@ const projects: IProjectItem[] = [
     description:
       "Taskade is an AI-powered productivity platform that combines task management, note-taking, mind maps, and real-time collaboration" + 
       " into one workspace with customizable workflows and cross-device sync.",
-    icon: "/images/taskade.png",
+    icon: "https://res.cloudinary.com/decn4jnpk/image/upload/v1751035311/taskade_mnupfp.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     url: "https://taskade.com",
@@ -54,7 +54,7 @@ const projects: IProjectItem[] = [
     description:
       "A real-time AI mock interview platform that offers voice-based, form-free interviews with lifelike personas, live feedback, " + 
       " and seamless management through an intuitive dashboard and secure Firebase authentication.",
-    icon: "/images/intervueai.png",
+    icon: "https://res.cloudinary.com/decn4jnpk/image/upload/v1751035313/intervueai_lzqazg.png",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "",
@@ -67,7 +67,7 @@ const projects: IProjectItem[] = [
     description:
       "A cross-platform video meeting app built with Flutter, featuring real-time video/audio calls, chat, " + 
       "screen sharing, and Firebase authentication—powered by WebRTC for low-latency communication.",
-    icon: "/images/flutter-chat.jpg",
+    icon: "https://res.cloudinary.com/decn4jnpk/image/upload/v1751035302/flutter-chat_fibswz.jpg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/digi-kraken206/ChatRoom-Flutter",
